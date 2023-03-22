@@ -6,6 +6,8 @@ This is the static linktree like site for FEN or Free Expression Now, and effort
 
 Info for people working on this website, this is **the important stuff.**
 
+- When writing a _component_ use the lambda function sytax!
+
 ## Running the Dev Server
 
 ```bash
