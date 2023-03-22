@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "next/font/google"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "@/styles/Home.module.css"
 import Button from "react-bootstrap/Button"
 
@@ -16,12 +17,10 @@ export default function LinkPage() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<div className={styles.center}>
-					<div className={styles.thirteen}>
-						{/* Title */}
-						<h1 className={inter.className}>Free Expression Now</h1>
-					</div>
-				</div>
+				<header className={styles.header}>
+					<h1 className={inter.className}>Free Expression Now</h1>
+					<Button variant="outline-primary">Free Button (Style sold separately)</Button>
+				</header>
 
 				<div className={styles.grid}>
 					<a
