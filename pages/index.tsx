@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "next/font/google"
 import styles from "@/styles/Home.module.css"
+import Button from "react-bootstrap/Button"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -15,15 +16,11 @@ export default function LinkPage() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<div className={styles.description}>
-					<p>
-						Get started by editing&nbsp;
-						<code className={styles.code}>pages/index.tsx</code>
-					</p>
-				</div>
-
 				<div className={styles.center}>
-					<div className={styles.thirteen}></div>
+					<div className={styles.thirteen}>
+						{/* Title */}
+						<h1 className={inter.className}>Free Expression Now</h1>
+					</div>
 				</div>
 
 				<div className={styles.grid}>
