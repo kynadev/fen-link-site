@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "next/font/google"
+import "bootstrap/dist/css/bootstrap.min.css"
 import styles from "@/styles/Home.module.css"
 import Card from "react-bootstrap/Card"
 
@@ -17,23 +18,14 @@ export default function LinkPage() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-
-			{/* ----------------------------------------- Title Content ----------------------------------------- */}
-
-			<main className={`${styles.main} ${inter.className}`}>
-				<div className={styles.center}>
-					<div className={styles.thirteen}>
-						{
-							// todo change names above `thirteen` -> `titlecard`? & reduce bottom margin/padding
-							// maybe add logo here?
-						}
-						<span>
-							<h1>Free Expression Now</h1>
-						</span>
-					</div>
-				</div>
-
-				{/* ----------------------------------------- Main Content ----------------------------------------- */}
+			<main className={`${inter.className} ${styles.main}`}>
+				<header className={styles.header}>
+					{
+						// todo reduce bottom margin/padding
+						// maybe add logo here?
+					}
+					<h1>Free Expression Now</h1>
+				</header>
 
 				<div className={styles.grid}>
 					{
