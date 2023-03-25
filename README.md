@@ -30,7 +30,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Dependencies and Tools Used
 
-We are deploying this using [GitHub Pages](#todo) as a **static page!**
+We are deploying this using [GitHub Pages](#todo) as a **static page!** Make sure to use **TAB** INSTEAD OF **SPACES!**
 
 ### `Next.js`
 
