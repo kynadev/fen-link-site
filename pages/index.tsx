@@ -32,7 +32,7 @@ export default function LinkPage() {
 
 				{/* ---------------------------------------- Body Content ---------------------------------------- */}
 
-				<div className={styles.grid}>
+				<div className={styles.container}>
 					{
 						// todo pick a good link to the statement
 						// todo change span animations to work here
@@ -40,14 +40,16 @@ export default function LinkPage() {
 					}
 					<a href="LINK TO X" className={styles.card} target="_blank" rel="noopener noreferrer">
 						<h2>
-							What is the Chicago Statement? <span>-&gt;</span>
+							<span>What is the Chicago Statement?</span>
+							{""}&nbsp;{""}
+							<span className={styles.arrow}>-&gt;</span>
 						</h2>
 						<p>
 							It is a statement that universities adopt affirming their commitment to free
 							expression written when the University of Chicago censored{" "}
 							<span style={{ color: "red" }}>communist</span> and{" "}
 							<span style={{ color: "lightblue" }}>socialist</span> speakers under the threats of{" "}
-							<i>right wing student groups</i>.
+							right wing student groups.
 						</p>
 					</a>
 				</div>
