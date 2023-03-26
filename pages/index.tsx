@@ -18,6 +18,9 @@ export default function LinkPage() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+
+			{/* ----------------------------------------- Main Content ----------------------------------------- */}
+
 			<main className={`${inter.className} ${styles.main}`}>
 				<header className={styles.header}>
 					{
@@ -26,6 +29,8 @@ export default function LinkPage() {
 					}
 					<h1>Free Expression Now</h1>
 				</header>
+
+				{/* ---------------------------------------- Body Content ---------------------------------------- */}
 
 				<div className={styles.grid}>
 					{
