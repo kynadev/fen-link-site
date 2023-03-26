@@ -6,7 +6,13 @@ This is the static linktree like site for FEN or Free Expression Now, and effort
 
 Info for people working on this website, this is **the important stuff.**
 
-- When writing a _component_ use the lambda function sytax!
+- Make sure to use **tabs** and **not** spaces!
+- When writing a _component_ use the `export default function` sytax!
+- Use a `ComponentProps` props interface and pass props into your components.
+- Name components with the same name as the file, but not required for pages.
+- Import styles with the `@/styles/css_file` path
+- Import components with the `../components/component_file` path
+- Place things in the right folders.
 
 ## Running the Dev Server
 
@@ -18,7 +24,7 @@ yarn dev
 pnpm dev
 ```
 
-Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result. This will live update as you edit on each save.
 
 <!-- You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
@@ -30,7 +36,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Dependencies and Tools Used
 
-We are deploying this using [GitHub Pages](#todo) as a **static page!** Make sure to use **TAB** INSTEAD OF **SPACES!**
+We are now planning on deploying this using [GitHub Pages](#todo) as a **static page!**
 
 ### `Next.js`
 
@@ -42,6 +48,8 @@ To learn more about Next.js, take a look at the following resources:
 ### `React-Bootstrap`
 
 React bootstrap gives us a bunch of easy to use components such as `<Card/>`'s you can look at the components [here](https://react-bootstrap.github.io/components/).
+
+> Update, we will probably not be using this package, pending removal.
 
 <!-- ## Deploy on Vercel
 

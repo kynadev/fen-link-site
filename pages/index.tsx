@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Inter } from "next/font/google"
 import "bootstrap/dist/css/bootstrap.min.css"
 import styles from "@/styles/Home.module.css"
-import Card from "react-bootstrap/Card"
+import Card from "../components/Card"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -38,12 +38,7 @@ export default function LinkPage() {
 						// todo change span animations to work here
 						// todo change the styles to make the card look nice
 					}
-					<a href="LINK TO X" className={styles.card} target="_blank" rel="noopener noreferrer">
-						<h2>
-							<span>What is the Chicago Statement?</span>
-							{""}&nbsp;{""}
-							<span className={styles.arrow}>-&gt;</span>
-						</h2>
+					<Card href="LINK" title="What is the Chicago Statement?">
 						<p>
 							It is a statement that universities adopt affirming their commitment to free
 							expression written when the University of Chicago censored{" "}
@@ -51,7 +46,7 @@ export default function LinkPage() {
 							<span style={{ color: "lightblue" }}>socialist</span> speakers under the threats of{" "}
 							right wing student groups.
 						</p>
-					</a>
+					</Card>
 				</div>
 			</main>
 		</>
